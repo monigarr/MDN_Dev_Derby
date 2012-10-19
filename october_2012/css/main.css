@@ -183,6 +183,30 @@ ul li a
 	}
 }
 
+/* 
+	Responsive Video
+	http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/ 
+   	see example seven for what I did here
+	Not working Yet. ToDo
+#containingBlock {
+  width:50%;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom:56.25%;
+  padding-top:25px;
+  height:0;
+  overflow:hidden;
+}
+.videoWrapper div,
+.videoWrapper object {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+}
+
 
 
 
