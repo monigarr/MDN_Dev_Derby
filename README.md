@@ -1,6 +1,7 @@
 MDN_Dev_Derby
 =============
 
+<<<<<<< HEAD
 Entries for the monthly MDN Dev Derby Challenges. Details:  
 https://developer.mozilla.org/en-US/demos/devderby
 
