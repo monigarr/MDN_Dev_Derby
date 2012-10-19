@@ -1,6 +1,9 @@
 MDN_Dev_Derby
 =============
-Entries for the monthly MDN Dev Derby Challenges. Details:  
+My entry for the monthly MDN Dev Derby Challenge. A developer can only win once during the year.  Please view my October entry from the MDN Site at the following url and click LIKE at the top of the page to help me win.  I appreciate your support very much and I hope you also get inspired by Responsive Web Design & Development.
+
+
+Details:  
 https://developer.mozilla.org/en-US/demos/devderby
 
 Developer: Monica Peters
@@ -24,4 +27,4 @@ Responsive Design Inspiration:
 * http://hicksdesign.co.uk/
 * http://css-tricks.com/lark-queries/
 
-ToDo: CSS for Print, GreyScale, and TTY.  Add custom icons.  Add custom icons for lists.
+ToDo: Add link to my entry at MDN site. CSS for Print, GreyScale, and TTY.  Add custom icons.  Add custom icons for lists.

@@ -5,6 +5,9 @@
    Based on each screen size (not device dependent) change the following:
         header color & image, icons with content, text size, image sizes, 
         background colors, list styles with icons or text.
+
+    Use em to responsively change size based on screen.
+    Do not use em for the background image height on the top cta div.
         
    ========================================================================== */
 
@@ -26,15 +29,22 @@ ul li a
   list-style-type: none;
 }
 
-/* lady gaga link list use em to responsively change size based on screen */
+/* lady gaga link list */
 #lglinks ul li a
 {
-    font-style: normal;
-    font-size: 0.938em;
-    color: #666;
-    padding-left: 0.063em;
+	font-style: normal;
+	font-size: 0.938em;
+	color: #666;
+	padding-left: 0.063em;
 	list-style: none;
-	}
+	width: 100%;
+}
+
+#cta {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 /* 800px min screen */
 @media screen and (min-width: 800px)
@@ -43,11 +53,7 @@ ul li a
 	{
 		background-color: green;
 		height: 700px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/large_lady-gaga-born-this-way.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 
 	/* add lady gaga text before link */
@@ -57,9 +63,6 @@ ul li a
 	    font-style: italic;
 	    color: #666;
 	    padding-left: 0.063em;
-    	/*background: url(../images/show_me_your_teeth.jpg) left center no-repeat;
-    	width: 150px;
-    	height: 150px;*/
   	}
 
   	/* add url text in link list */
@@ -68,7 +71,6 @@ ul li a
 	    content: " " attr(href) " ";
 	    font-size: 0.688em;
 	    color: #666;
-	    list-style: none;
   	}
 }
 
@@ -79,11 +81,7 @@ ul li a
 	{
 		background-color: #000000;
 		height: 700px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/Lady_GaGa___Teeth_by_other_covers.png");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 }
 
@@ -94,11 +92,7 @@ ul li a
 	{
 		background-color: #88DEEF;
 		height: 400px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/600x400-ENT-LadyGaga-600x400.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 }
 
@@ -109,11 +103,7 @@ ul li a
 	{
 		background-color: red;
 		height: 460px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/A.Richard.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 }
 
@@ -124,11 +114,7 @@ ul li a
 	{
 		background-color: #5D9FBF;
 		height: 200px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/Lady_Gaga_telephone_reasonably_small.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 }
 
@@ -139,11 +125,7 @@ ul li a
 	{
 		background-color: purple;
 		height: 200px;
-		width: 100%;
-		text-align: center;
 		background-image: url("../images/lady_gaga_glasses_legs_shoes_armchair_4446_256x256.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
 	}
 }
 
