@@ -1,0 +1,214 @@
+
+
+/* ==========================================================================
+   Monica Peters' Custom CSS Styles
+   Based on each screen size (not device dependent) change the following:
+        header color & image, icons with content, text size, image sizes, 
+        background colors, list styles with icons or text.
+        
+   ========================================================================== */
+
+/* 
+	css media queries:  https://developer.mozilla.org/en-US/docs/CSS/Media_queries
+ 	search youtube for "css media queries"
+ 	px to em converter:  http://pxtoem.com/
+ 	http://designshack.net/articles/css/20-amazing-examples-of-using-media-queries-for-responsive-web-design
+
+*/
+
+/* plain lists */
+ul li a
+{
+  color: #900;
+  text-decoration: none;
+  padding: 0.188em; 
+  display: block;
+  list-style-type: none;
+}
+
+/* lady gaga link list use em to responsively change size based on screen */
+#lglinks ul li a
+{
+    font-style: normal;
+    font-size: 0.938em;
+    color: #666;
+    padding-left: 0.063em;
+	list-style: none;
+	}
+
+/* 800px min screen */
+@media screen and (min-width: 800px)
+{
+	#cta 
+	{
+		background-color: green;
+		height: 700px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/large_lady-gaga-born-this-way.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	/* add lady gaga text before link */
+	#lglinks ul li a:before
+	{
+	    content: "Lady Gaga ";
+	    font-style: italic;
+	    color: #666;
+	    padding-left: 0.063em;
+    	/*background: url(../images/show_me_your_teeth.jpg) left center no-repeat;
+    	width: 150px;
+    	height: 150px;*/
+  	}
+
+  	/* add url text in link list */
+  	ul li a:after 
+  	{
+	    content: " " attr(href) " ";
+	    font-size: 0.688em;
+	    color: #666;
+	    list-style: none;
+  	}
+}
+
+/* 600px min screen */
+@media screen and (max-width: 799px)
+{
+	#cta 
+	{
+		background-color: #000000;
+		height: 700px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/Lady_GaGa___Teeth_by_other_covers.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* 400px min screen */
+@media screen and (max-width: 499px)
+{
+	#cta 
+	{
+		background-color: #88DEEF;
+		height: 400px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/600x400-ENT-LadyGaga-600x400.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* 200px min screen */
+@media screen and (max-width: 399px)
+{
+	#cta 
+	{
+		background-color: red;
+		height: 460px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/A.Richard.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* 100px min screen */
+@media screen and (max-width: 199px)
+{
+	#cta 
+	{
+		background-color: #5D9FBF;
+		height: 200px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/Lady_Gaga_telephone_reasonably_small.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* 50px min screen */
+@media screen and (max-width: 99px)
+{
+	#cta 
+	{
+		background-color: purple;
+		height: 200px;
+		width: 100%;
+		text-align: center;
+		background-image: url("../images/lady_gaga_glasses_legs_shoes_armchair_4446_256x256.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+
+/* grid based screen - tty, phone with one font */
+@media handheld and (grid) and (max-width: 15em)
+{
+	background:url("/images/large_lady-gaga-born-this-way.jpg");
+}
+
+/* monochrome greyscale device with 8 bits per pixel */
+@media all and (min-monochrome: 8)
+{
+	background:url("/images/Lady_Gaga_telephone_reasonably_small.jpg");
+}
+
+/* square screen */
+@media screen and (min-aspect-ratio: 1/1)
+{
+	background:url("/images/Lady_Gaga_telephone_reasonably_small.jpg");
+}
+
+/* wide screen */
+@media screen and (device-aspect-ratio: 16/9), screen and (device-aspect-ratio: 16/10)
+{
+	background:url("/images/large_lady-gaga-born-this-way.jpg");
+
+	/* portrait layout has new image pose */
+	@media all and (orientation: portrait) 
+	{
+
+	}
+}
+
+/* progressive scanning television screen */
+@media tv and (scan: progressive) 
+{
+	background:url("/images/large_lady-gaga-born-this-way.jpg");
+}
+
+/* handheld device */
+@media handheld and (min-width: 20em), screen and (min-width: 20em) 
+{
+	background:url("/images/Lady_GaGa__Teeth_by_other_covers.png");
+}
+
+/* large screen */
+@media all and (min-width: 1151px) 
+{
+		background:url("/images/large_lady-gaga-born-this-way.jpg");
+
+		/* portrait layout has new image pose */
+	@media all and (orientation: portrait) 
+	{
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
