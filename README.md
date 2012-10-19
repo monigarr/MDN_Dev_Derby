@@ -4,12 +4,12 @@ Entries for the monthly MDN Dev Derby Challenges. Details:
 https://developer.mozilla.org/en-US/demos/devderby
 
 Developer: Monica Peters
-Contact:   http://www.monicalamb.com/blog3/contact/
-YouTube:   http://www.youtube.com/monigarr
-Twitter:   http://www.Twitter.com/monigarr
-FaceBook:  http://www.FaceBook.com/monigarr
-LinkedIn:  http://ca.linkedin.com/in/monigarr
-GitHub:    http://www.github.com/monigarr
+* Contact:   http://www.monicalamb.com/blog3/contact/
+* YouTube:   http://www.youtube.com/monigarr
+* Twitter:   http://www.Twitter.com/monigarr
+* FaceBook:  http://www.FaceBook.com/monigarr
+* LinkedIn:  http://ca.linkedin.com/in/monigarr
+* GitHub:    http://www.github.com/monigarr
 
 
 CSS Media Queries, Size Matters, October 2012
